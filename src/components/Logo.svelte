@@ -1,11 +1,8 @@
-<style>
-  img {
-    display: block;
-    height: 28px;
-    width: auto;
-  }
-</style>
-
-<a href="/">
-  <img alt="Rohan" src="rohan-logo.png" />
-</a>
+<div class="h-full flex flex-col items-center justify-center">
+  <a href="/">
+    <img
+      alt="Rohan"
+      class="block w-auto h-4 sm:h-6 md:h-8"
+      src="rohan-logo.png" />
+  </a>
+</div>

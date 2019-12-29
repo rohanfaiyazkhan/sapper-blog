@@ -10,6 +10,7 @@
 
 <script>
   export let posts;
+  console.log("Posts:", posts);
 </script>
 
 <style>

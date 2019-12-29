@@ -13,6 +13,8 @@ Write what you want.
 
 Markdown code snippets.
 
+![Test Image](profile-pic.png)
+
 ```jsx
 
 import React from 'react'

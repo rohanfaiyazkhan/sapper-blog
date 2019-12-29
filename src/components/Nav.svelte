@@ -51,12 +51,9 @@
 
 <nav>
   <a class={segment === undefined ? 'selected' : ''} href="." rel="prefetch">
-    home
+    blog
   </a>
   <a class={segment === 'about' ? 'selected' : ''} href="about" rel="prefetch">
     about
-  </a>
-  <a rel="prefetch" class={segment === 'post' ? 'selected' : ''} href="post">
-    blog
   </a>
 </nav>

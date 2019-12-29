@@ -1,4 +1,10 @@
-*, *:before, *:after {
+:root {
+  --primary: #4D4C7B;
+}
+
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -10,7 +16,12 @@ body {
   color: #36393b;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Rubik, sans-serif;
   font-weight: 700;
   line-height: 1.2;
@@ -44,13 +55,16 @@ h6 {
   font-size: 1.2em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   font-size: 1.3rem;
   line-height: 1.75em;
   margin: 1.2em 0;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 2rem;
   -webkit-padding-start: 5%;
   -webkit-padding-end: 5%;
@@ -109,8 +123,8 @@ code {
 }
 
 pre {
-  border-radius: 8px!important;
-  margin: 1.2em 0!important;
+  border-radius: 8px !important;
+  margin: 1.2em 0 !important;
 }
 
 pre code {
@@ -163,8 +177,6 @@ td {
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 42em;
   width: 100%;
 }
 
@@ -188,7 +200,9 @@ td {
     font-size: 14px;
   }
 
-  p, ul, ol {
+  p,
+  ul,
+  ol {
     font-size: 1.2rem;
     margin: 1em 0;
   }

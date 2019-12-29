@@ -9,6 +9,7 @@
 </script>
 
 <script>
+  import Hero from "../components/Hero.svelte";
   export let posts;
 </script>
 
@@ -21,10 +22,6 @@
     justify-content: center;
     margin: 2em 0;
     min-height: 400px;
-  }
-
-  .home-copy {
-    flex: 1;
   }
 
   h1 {
@@ -69,12 +66,6 @@
     .home-container {
       flex-direction: column;
     }
-
-    .home-copy {
-      flex: 0;
-      padding-bottom: 2em;
-      text-align: center;
-    }
   }
 </style>
 
@@ -83,18 +74,7 @@
 </svelte:head>
 
 <div class="home-container">
-  <div class="home-copy">
-    <h1>Welcome to your new Sapper Blog</h1>
-    <p>
-      Check out the docs on
-      <a
-        href="https://www.github.com/Charca/sapper-blog-template"
-        target="_blank">
-        GitHub
-      </a>
-      to get started.
-    </p>
-  </div>
+  <Hero />
 
   <div class="blog-container">
     <h1>Blog</h1>
