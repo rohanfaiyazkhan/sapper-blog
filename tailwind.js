@@ -5,10 +5,12 @@ module.exports = {
 			auto  : "auto",
 			"1/2" : "50%",
 			"-24" : "-6rem",
-			"-48" : "-12rem"
+			"-48" : "-12rem",
+			"24"  : "6rem",
+			"48"  : "12rem"
 		},
 		fontFamily   : {
-			sans  : [ "Montserrat", "sans-serif" ],
+			sans  : [ "Rubik", "sans-serif" ],
 			serif : [ "Merriweather", "serif" ]
 		},
 		borderRadius : {

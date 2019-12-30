@@ -3,23 +3,7 @@
 </script>
 
 <style>
-  nav {
-    align-items: flex-end;
-    display: flex;
-    flex: 1;
-    font-family: Rubik, sans-serif;
-    font-weight: 700;
-    justify-content: flex-end;
-    text-transform: uppercase;
-  }
-
   a {
-    color: inherit;
-    text-decoration: none;
-    padding: 10px 5px;
-    display: block;
-    position: relative;
-    margin-left: 20px;
     opacity: 0.7;
   }
 
@@ -49,11 +33,19 @@
   }
 </style>
 
-<nav>
-  <a class={segment === undefined ? 'selected' : ''} href="." rel="prefetch">
+<nav
+  class="font-sans flex align-end justify-end flex-grow uppercase font-bold
+  tracking-wide ">
+  <a
+    class={`no-underline text-gray-800 py-3 px-px sm:px-2 ml-2 text-md sm:text-lg md:text-xl relative ${segment === undefined ? 'selected' : ''}`}
+    href="."
+    rel="prefetch">
     blog
   </a>
-  <a class={segment === 'about' ? 'selected' : ''} href="about" rel="prefetch">
+  <a
+    class={`no-underline text-gray-800 py-3 px-px sm:px-2 ml-2 text-md sm:text-lg md:text-xl relative ${segment === 'about' ? 'selected' : ''}`}
+    href="about"
+    rel="prefetch">
     about
   </a>
 </nav>

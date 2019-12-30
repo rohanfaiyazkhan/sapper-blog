@@ -73,8 +73,8 @@
   <title>Sapper Blog Template</title>
 </svelte:head>
 
+<Hero />
 <div class="home-container">
-  <Hero />
 
   <div class="blog-container">
     <h1>Blog</h1>

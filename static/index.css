@@ -3587,7 +3587,7 @@ video {
 }
 
 .font-sans {
-  font-family: Montserrat, sans-serif;
+  font-family: Rubik, sans-serif;
 }
 
 .font-serif {
@@ -6575,6 +6575,20 @@ video {
   left: 0;
 }
 
+.inset-24 {
+  top: 6rem;
+  right: 6rem;
+  bottom: 6rem;
+  left: 6rem;
+}
+
+.inset-48 {
+  top: 12rem;
+  right: 12rem;
+  bottom: 12rem;
+  left: 12rem;
+}
+
 .inset-auto {
   top: auto;
   right: auto;
@@ -6611,6 +6625,26 @@ video {
 .inset-x-0 {
   right: 0;
   left: 0;
+}
+
+.inset-y-24 {
+  top: 6rem;
+  bottom: 6rem;
+}
+
+.inset-x-24 {
+  right: 6rem;
+  left: 6rem;
+}
+
+.inset-y-48 {
+  top: 12rem;
+  bottom: 12rem;
+}
+
+.inset-x-48 {
+  right: 12rem;
+  left: 12rem;
 }
 
 .inset-y-auto {
@@ -6667,6 +6701,38 @@ video {
 
 .left-0 {
   left: 0;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.bottom-24 {
+  bottom: 6rem;
+}
+
+.left-24 {
+  left: 6rem;
+}
+
+.top-48 {
+  top: 12rem;
+}
+
+.right-48 {
+  right: 12rem;
+}
+
+.bottom-48 {
+  bottom: 12rem;
+}
+
+.left-48 {
+  left: 12rem;
 }
 
 .top-auto {
@@ -11412,7 +11478,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: Montserrat, sans-serif;
+    font-family: Rubik, sans-serif;
   }
 
   .sm\:font-serif {
@@ -14400,6 +14466,20 @@ video {
     left: 0;
   }
 
+  .sm\:inset-24 {
+    top: 6rem;
+    right: 6rem;
+    bottom: 6rem;
+    left: 6rem;
+  }
+
+  .sm\:inset-48 {
+    top: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    left: 12rem;
+  }
+
   .sm\:inset-auto {
     top: auto;
     right: auto;
@@ -14436,6 +14516,26 @@ video {
   .sm\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .sm\:inset-y-24 {
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .sm\:inset-x-24 {
+    right: 6rem;
+    left: 6rem;
+  }
+
+  .sm\:inset-y-48 {
+    top: 12rem;
+    bottom: 12rem;
+  }
+
+  .sm\:inset-x-48 {
+    right: 12rem;
+    left: 12rem;
   }
 
   .sm\:inset-y-auto {
@@ -14492,6 +14592,38 @@ video {
 
   .sm\:left-0 {
     left: 0;
+  }
+
+  .sm\:top-24 {
+    top: 6rem;
+  }
+
+  .sm\:right-24 {
+    right: 6rem;
+  }
+
+  .sm\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .sm\:left-24 {
+    left: 6rem;
+  }
+
+  .sm\:top-48 {
+    top: 12rem;
+  }
+
+  .sm\:right-48 {
+    right: 12rem;
+  }
+
+  .sm\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .sm\:left-48 {
+    left: 12rem;
   }
 
   .sm\:top-auto {
@@ -19238,7 +19370,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: Montserrat, sans-serif;
+    font-family: Rubik, sans-serif;
   }
 
   .md\:font-serif {
@@ -22226,6 +22358,20 @@ video {
     left: 0;
   }
 
+  .md\:inset-24 {
+    top: 6rem;
+    right: 6rem;
+    bottom: 6rem;
+    left: 6rem;
+  }
+
+  .md\:inset-48 {
+    top: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    left: 12rem;
+  }
+
   .md\:inset-auto {
     top: auto;
     right: auto;
@@ -22262,6 +22408,26 @@ video {
   .md\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .md\:inset-y-24 {
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .md\:inset-x-24 {
+    right: 6rem;
+    left: 6rem;
+  }
+
+  .md\:inset-y-48 {
+    top: 12rem;
+    bottom: 12rem;
+  }
+
+  .md\:inset-x-48 {
+    right: 12rem;
+    left: 12rem;
   }
 
   .md\:inset-y-auto {
@@ -22318,6 +22484,38 @@ video {
 
   .md\:left-0 {
     left: 0;
+  }
+
+  .md\:top-24 {
+    top: 6rem;
+  }
+
+  .md\:right-24 {
+    right: 6rem;
+  }
+
+  .md\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .md\:left-24 {
+    left: 6rem;
+  }
+
+  .md\:top-48 {
+    top: 12rem;
+  }
+
+  .md\:right-48 {
+    right: 12rem;
+  }
+
+  .md\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .md\:left-48 {
+    left: 12rem;
   }
 
   .md\:top-auto {
@@ -27064,7 +27262,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: Montserrat, sans-serif;
+    font-family: Rubik, sans-serif;
   }
 
   .lg\:font-serif {
@@ -30052,6 +30250,20 @@ video {
     left: 0;
   }
 
+  .lg\:inset-24 {
+    top: 6rem;
+    right: 6rem;
+    bottom: 6rem;
+    left: 6rem;
+  }
+
+  .lg\:inset-48 {
+    top: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    left: 12rem;
+  }
+
   .lg\:inset-auto {
     top: auto;
     right: auto;
@@ -30088,6 +30300,26 @@ video {
   .lg\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .lg\:inset-y-24 {
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .lg\:inset-x-24 {
+    right: 6rem;
+    left: 6rem;
+  }
+
+  .lg\:inset-y-48 {
+    top: 12rem;
+    bottom: 12rem;
+  }
+
+  .lg\:inset-x-48 {
+    right: 12rem;
+    left: 12rem;
   }
 
   .lg\:inset-y-auto {
@@ -30144,6 +30376,38 @@ video {
 
   .lg\:left-0 {
     left: 0;
+  }
+
+  .lg\:top-24 {
+    top: 6rem;
+  }
+
+  .lg\:right-24 {
+    right: 6rem;
+  }
+
+  .lg\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .lg\:left-24 {
+    left: 6rem;
+  }
+
+  .lg\:top-48 {
+    top: 12rem;
+  }
+
+  .lg\:right-48 {
+    right: 12rem;
+  }
+
+  .lg\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .lg\:left-48 {
+    left: 12rem;
   }
 
   .lg\:top-auto {
@@ -34890,7 +35154,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: Montserrat, sans-serif;
+    font-family: Rubik, sans-serif;
   }
 
   .xl\:font-serif {
@@ -37878,6 +38142,20 @@ video {
     left: 0;
   }
 
+  .xl\:inset-24 {
+    top: 6rem;
+    right: 6rem;
+    bottom: 6rem;
+    left: 6rem;
+  }
+
+  .xl\:inset-48 {
+    top: 12rem;
+    right: 12rem;
+    bottom: 12rem;
+    left: 12rem;
+  }
+
   .xl\:inset-auto {
     top: auto;
     right: auto;
@@ -37914,6 +38192,26 @@ video {
   .xl\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .xl\:inset-y-24 {
+    top: 6rem;
+    bottom: 6rem;
+  }
+
+  .xl\:inset-x-24 {
+    right: 6rem;
+    left: 6rem;
+  }
+
+  .xl\:inset-y-48 {
+    top: 12rem;
+    bottom: 12rem;
+  }
+
+  .xl\:inset-x-48 {
+    right: 12rem;
+    left: 12rem;
   }
 
   .xl\:inset-y-auto {
@@ -37970,6 +38268,38 @@ video {
 
   .xl\:left-0 {
     left: 0;
+  }
+
+  .xl\:top-24 {
+    top: 6rem;
+  }
+
+  .xl\:right-24 {
+    right: 6rem;
+  }
+
+  .xl\:bottom-24 {
+    bottom: 6rem;
+  }
+
+  .xl\:left-24 {
+    left: 6rem;
+  }
+
+  .xl\:top-48 {
+    top: 12rem;
+  }
+
+  .xl\:right-48 {
+    right: 12rem;
+  }
+
+  .xl\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .xl\:left-48 {
+    left: 12rem;
   }
 
   .xl\:top-auto {

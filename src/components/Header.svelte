@@ -6,16 +6,14 @@
 </script>
 
 <style>
-  header {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1400px;
-    padding: 2em;
-    width: 100%;
+  .bg-gradient {
+    background: linear-gradient(#bee3f8, #90cdf4);
   }
 </style>
 
-<header>
-  <Logo />
-  <Nav {segment} />
-</header>
+<div class="w-full bg-gradient">
+  <header class="flex w-full mx-auto p-5 max-w-6xl items-center">
+    <Logo />
+    <Nav {segment} />
+  </header>
+</div>

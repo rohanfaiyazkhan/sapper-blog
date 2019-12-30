@@ -1,6 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-  <path
-    fill="#2779BD"
-    fill-opacity="1"
-    d="M0,96L60,85.3C120,75,240,53,360,53.3C480,53,600,75,720,112C840,149,960,203,1080,218.7C1200,235,1320,213,1380,202.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z" />
-</svg>
+<style>
+  .wave {
+    z-index: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 100%;
+  }
+</style>
+
+<img class="wave" src="wave.svg" alt="" />
