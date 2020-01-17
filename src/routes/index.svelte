@@ -74,7 +74,7 @@
 </svelte:head>
 
 <Hero />
-<div class="home-container">
+<div class="home-container z-20">
 
   <div class="blog-container">
     <h1>Blog</h1>
