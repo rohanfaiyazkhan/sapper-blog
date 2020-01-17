@@ -1,11 +1,17 @@
 <script>
   import Wave from "./decorational/Wave.svelte";
+  import IconLink from "./IconLink.svelte"
 </script>
 
 <style>
   .bg-gradient {
     background: linear-gradient(180deg, #90cdf4, #3182ce);
   }
+
+      .icon {
+        height: 2rem;
+        width: auto;
+    }
 </style>
 
 <div class="relative">
@@ -23,6 +29,14 @@
         I am a frontend engineer currently living in Dhaka, Bangladesh. I work
         with React, Javascript, Typescript and Svelte.
       </p>
+      <div class="w-full h-10 mb-4 flex">
+        <a href="mailto:rohankhan170@gmail.com" target="_blank" rel="noreferrer noopener">
+          <img class="icon mr-4" src="social-icons/email.svg" alt="Rohan's email" />
+        </a>
+        <a href="https://github.com/rohanfaiyazkhan" target="_blank" rel="noreferrer noopener">
+          <img class="icon mr-4" src="social-icons/github.svg" alt="Rohan's Github" />
+        </a>
+      </div>
     </div>
     <img
       class="relative shadow-lg block self-end rounded-full w-48 h-48 mr-0
